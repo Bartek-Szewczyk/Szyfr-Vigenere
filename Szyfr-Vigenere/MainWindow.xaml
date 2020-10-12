@@ -18,7 +18,7 @@
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="201" Margin="10,110,0,0" TextWrapping="Wrap" Text="Podaj swój tekst" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="{x:Null}">
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="201" Margin="10,110,0,0" TextWrapping="Wrap" Text="Podaj swój tekst" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="#99000000">
             <TextBox.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
             </TextBox.Foreground>
@@ -26,7 +26,7 @@
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuHighlightColorKey}}"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="201" Margin="485,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="{x:Null}">
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="201" Margin="485,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="#B2000000">
             <TextBox.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
             </TextBox.Foreground>
