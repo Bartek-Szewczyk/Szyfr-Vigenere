@@ -5,8 +5,65 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Szyfr_Vigenere"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="640.498" Width="800">
+    <Grid x:Name="body" Margin="0,0,0.333,-0.333">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="szyfr.jpg"/>
+        </Grid.Background>
+        <Label x:Name="title" Content="Szyfr Vigenere" HorizontalAlignment="Left" Height="82" Margin="234,10,0,0" VerticalAlignment="Top" Width="325" RenderTransformOrigin="0.502,0.482" FontFamily="Rockwell Extra Bold" FontWeight="Bold" FontSize="36">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="201" Margin="10,110,0,0" TextWrapping="Wrap" Text="Podaj swój tekst" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="{x:Null}">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </TextBox.Foreground>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuHighlightColorKey}}"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="201" Margin="485,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="298" BorderThickness="2px" Background="{x:Null}">
+            <TextBox.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </TextBox.Foreground>
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuHighlightColorKey}}"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Button x:Name="wykonaj" Content="WYKONAJ" HorizontalAlignment="Left" Height="67" Margin="254,521,0,0" VerticalAlignment="Top" Width="247" FontFamily="Rockwell Extra Bold" FontSize="20">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </Button.Foreground>
+        </Button>
+        <ComboBox x:Name="cmbBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="199" Margin="32,408,0,0" Height="28">
+            <ComboBoxItem IsSelected="True">Szyfrowanie</ComboBoxItem>
+            <ComboBoxItem>Deszyfracja</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="clear" Content="CLEAR" HorizontalAlignment="Left" Height="46" Margin="654,542,0,0" VerticalAlignment="Top" Width="112" FontFamily="Rockwell Extra Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2DEDED" Offset="0"/>
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveCaptionColorKey}}" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="key" HorizontalAlignment="Left" Height="28" Margin="518,408,0,0" TextWrapping="Wrap" Text="Podaj klucz szyfrujący" VerticalAlignment="Top" Width="248">
+            <TextBox.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlDarkColorKey}}"/>
+            </TextBox.Background>
+        </TextBox>
+        <Label x:Name="labelKey" Content="Klucz Szyfrujący" HorizontalAlignment="Left" Height="43" Margin="556,365,0,0" VerticalAlignment="Top" Width="195" FontFamily="Rockwell Extra Bold" Background="Transparent" FontSize="16">
+            <Label.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
+            </Label.Foreground>
+        </Label>
+
     </Grid>
 </Window>

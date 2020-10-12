@@ -1,0 +1,15 @@
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\bin\Debug\Szyfr-Vigenere.exe.config
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\bin\Debug\Szyfr-Vigenere.exe
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\bin\Debug\Szyfr-Vigenere.pdb
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.csprojAssemblyReference.cache
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\MainWindow.g.cs
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\App.g.cs
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere_MarkupCompile.cache
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere_MarkupCompile.lref
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\MainWindow.baml
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.g.resources
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr_Vigenere.Properties.Resources.resources
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.csproj.GenerateResource.cache
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.csproj.CoreCompileInputs.cache
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.exe
+C:\Users\48601\Desktop\Studia 3 Semestr\Bezpieczeństwo Systemów Informatycznych\vin\Szyfr-Vigenere\obj\Debug\Szyfr-Vigenere.pdb
